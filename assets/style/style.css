@@ -23,6 +23,10 @@
   border-color: #0d2c4c !important;
 }
 
+.btn-primary:active {
+  border-color: #0d2c4c !important;
+}
+
 #mainNav .navbar-nav .nav-item .nav-link {
   font-weight: bold;
   letter-spacing: 2px;
@@ -61,5 +65,18 @@
   width: 300px;
   height: 65px;
   display: block;
+}
+
+footer {
+  background-color: #0d2c4c;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #f37c38;
 }
 /*# sourceMappingURL=style.css.map */
