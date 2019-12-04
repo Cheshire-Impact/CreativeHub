@@ -1,0 +1,62 @@
+$orange: #f37c38;
+$blue: #0d2c4c;
+
+::selection {
+  background: #25abd1;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: $orange;
+  border-color: $orange;
+  &:hover {
+    background-color: $blue !important;
+    border-color: $blue !important;
+  }
+  &:focus {
+    background-color: $blue !important;
+    border-color: $blue !important;
+  }
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-weight: bold;
+  letter-spacing: 2px;
+  &:hover {
+    color: $orange;
+  }
+}
+
+#mainNav.navbar-shrink {
+  background-color: #fff;
+  padding: 1rem 0;
+  box-shadow: 0px 1px 10px #999;
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: $blue;
+        &:hover {
+          color: $orange;
+        }
+      }
+    }
+  }
+}
+
+.navbar-shrink {
+  .navbar-brand {
+    background-image: url("../img/cheshire-impact-creative-hub-logo-color.png");
+    background-size: cover;
+    width: 300px;
+    height: 65px;
+    display: block;
+  }
+}
+
+.navbar-brand {
+  background-image: url("../img/cheshire-impact-creative-hub-logo.png");
+  background-size: cover;
+  width: 300px;
+  height: 65px;
+  display: block;
+}
