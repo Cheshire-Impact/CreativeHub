@@ -79,4 +79,8 @@ footer a {
 footer a:hover {
   color: #f37c38;
 }
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background-color: rgba(243, 124, 56, 0.7);
+}
 /*# sourceMappingURL=style.css.map */
