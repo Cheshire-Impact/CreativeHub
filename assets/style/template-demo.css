@@ -1,0 +1,21 @@
+#sidebar {
+  background-color: #0d2c4c;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20%;
+  height: 100%;
+}
+
+#template-wrapper {
+  width: 80%;
+  margin-left: 20%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/*# sourceMappingURL=template-demo.css.map */
