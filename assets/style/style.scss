@@ -64,6 +64,10 @@ $blue: #0d2c4c;
   display: block;
 }
 
+#mainNav .navbar-toggler {
+  background-color: $orange;
+}
+
 footer {
   background-color: $blue;
   color: #fff;

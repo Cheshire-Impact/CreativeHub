@@ -67,6 +67,10 @@
   display: block;
 }
 
+#mainNav .navbar-toggler {
+  background-color: #f37c38;
+}
+
 footer {
   background-color: #0d2c4c;
   color: #fff;
